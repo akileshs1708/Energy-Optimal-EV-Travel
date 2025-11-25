@@ -1,1 +1,30 @@
-# Energy-Optimal-EV-Travel
+# Energy-Optimal Electric Vehicle Travel Using Extended Branch & Bound Methods
+
+This project implements the methods from the paper **“Branch and Bound based methods to minimize the energy consumed by an electrical vehicle on long travels with slopes.”**  
+It focuses on optimizing EV energy consumption over long, slope-varying routes using an enhanced Branch and Bound (B&B) algorithm supported by realistic electrical and mechanical vehicle models.
+
+## Overview
+The original B&B algorithm was developed for short (100 m), flat routes.  
+This implementation extends the method to:
+- Long-distance travel
+- Routes with varying slopes
+- Mixed-integer optimal control
+- Realistic acceleration and deceleration phases
+
+## Key Features
+- Extended Branch & Bound search with variable time discretization
+- Two new bounding heuristics for faster and more reliable pruning
+- Slope-integrated electrical and mechanical EV dynamics
+- Algorithm for handling slope transitions across route segments
+- Acceleration constraints to ensure physically realistic solutions
+
+## Outputs
+- Optimal speed profile
+- Optimal acceleration and braking phases
+- Total energy consumption
+- Energy usage per segment
+- Visualizations generated through `visualize.py`
+
+## Reference
+This implementation is based on the paper:  
+**“Branch and Bound based methods to minimize the energy consumed by an electrical vehicle on long travels with slopes.”**
