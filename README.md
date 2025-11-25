@@ -28,3 +28,9 @@ This implementation extends the method to:
 ## Reference
 This implementation is based on the paper:  
 **“Branch and Bound based methods to minimize the energy consumed by an electrical vehicle on long travels with slopes.”**
+
+## Credits
+- Devkumar K 23PD06
+- Akilesh S 23PD33
+- Sabariesh Karthic A M 23PD34
+
