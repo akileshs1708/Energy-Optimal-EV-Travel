@@ -3,6 +3,9 @@
 This project implements the methods from the paper **“Branch and Bound based methods to minimize the energy consumed by an electrical vehicle on long travels with slopes.”**  
 It focuses on optimizing EV energy consumption over long, slope-varying routes using an enhanced Branch and Bound (B&B) algorithm supported by realistic electrical and mechanical vehicle models.
 
+![2025-11-0511 00 44 PM](https://github.com/user-attachments/assets/90b2837f-ec3d-4464-9d3e-84bbf79cd5e5)
+![21247ef5-0e3d-4ce1-bafe-bbb4889aeabe](https://github.com/user-attachments/assets/3f7b770b-7af5-4355-ad4d-d27286956ae9)
+
 ## Overview
 The original B&B algorithm was developed for short (100 m), flat routes.  
 This implementation extends the method to:
